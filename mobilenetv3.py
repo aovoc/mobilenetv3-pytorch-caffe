@@ -269,12 +269,7 @@ if __name__ == '__main__':
     maccs, params = profile(net, inputs=(input, ))
     print('Total params: %.2fM' % (params/1000000.0))
     print('Total maccs: %.2fM' % (maccs/1000000.0))
-    #out = net(input)
-    #print(net.eval())
-    #for name, layer in net.named_modules():
-    #    print(name)
-    #print(net.named_modules())
-    #print(dir(net))
+
 
 
 
